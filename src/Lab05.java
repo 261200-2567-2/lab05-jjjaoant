@@ -59,6 +59,7 @@ public class Lab05 {
         System.out.println("2. Broomstick");
         System.out.println("3. Boots");
         System.out.println("4. Robe");
+
         scanner.nextLine(); // Consume newline
         String[] choices = scanner.nextLine().split(" ");
         if (choices.length == 0 || choices[0].isEmpty()) {
